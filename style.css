@@ -1,0 +1,370 @@
+
+
+.navbar{
+    display:flex;
+    
+  
+    margin-left:30px;
+    margin-right:30px;
+    margin-bottom:30px;
+   
+}
+
+.navbar .logo{
+    width:30%
+   
+}
+
+.navbar .logo img{
+    margin-left:9px;
+    margin-right: 9px;
+    margin-bottom: 9px;
+    margin-top:20px;
+    
+    width: 80px;
+    height:55px;
+    border-radius: 5px;
+   border:2px solid rgb(13, 5, 131);
+    position:fixed;
+   
+
+}
+
+.navbar .logo img:hover{
+    cursor:pointer;
+
+}
+
+.navbar .nav_content{
+    width:70%
+}
+
+.navbar .nav_content a{
+    display:inline-block;
+    text-decoration: none;
+    margin-right:39px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding:10px;
+    color:rgb(5, 5, 110);;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+
+    
+
+}
+.navbar .nav_content a:hover{
+    
+    color:crimson
+    
+    
+}
+
+.section{
+    background-image: url("IT Pic.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    height:500px;
+    
+    /*margin-top:30px;
+    margin-left:30px;
+    margin-right:45px;*/
+   margin-bottom:80px;
+
+
+
+}
+
+.section .main{
+   /* border:2px solid black;*/
+   /* display:block;*/
+
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+    margin-top: 4%;
+    margin-left: 23%;
+    
+    
+
+}
+.section .main h1{
+    text-transform:capitalize;
+    color:rgb(5, 5, 110);
+    margin-left: 30px;
+    margin-right: 10px;
+    line-height:44px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom:2px solid rgb(5, 5, 110);
+    text-align:justify;
+
+}
+.section .main p{
+    text-transform:capitalize;
+    color:rgb(90, 7, 7);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+    
+    margin-top:30px;
+    margin-left:250px;
+
+}
+/*.section .main p{
+    margin-left: 80px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    line-height: 22px;
+    width:450px;
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+.services{
+    background-color:rgb(27, 27, 97); 
+    height:40px;
+    margin-top:100px;
+    
+  
+
+}
+.services .services_content h1{
+    text-transform: uppercase;
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    margin-left:150px;
+    margin-top:30px;
+    
+   
+
+}
+/*.services .services_content p{
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:150px;
+    margin-top:10px;
+    line-height: 20px;
+}*/
+
+.points{
+    display:flex;
+    
+    height:350px;
+    margin-top:20px;
+    
+
+}
+.points .one{
+    background-color: rgba(69, 69, 82, 0.1);
+
+    box-sizing: border-box;
+    margin-left:0px;
+    margin-right:80px;
+    padding:40px;
+    box-shadow: 20px 20px grey;
+
+}
+.points .one h1{
+    color:rgb(5, 5, 110);
+    font-size: 50x;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.points .one a{
+    text-decoration: none;
+    color:rgb(201, 14, 14);
+}
+.points .two{
+    background-color: rgba(69, 69, 82, 0.1);
+
+    box-sizing: border-box;
+    margin-left:0px;
+    margin-right:80px;
+    padding:40px;
+    box-shadow: 20px 20px grey;
+
+
+}
+.points .two h1{
+    color:rgb(5, 5, 110);
+    font-size: 50x;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.points .two a{
+    text-decoration: none;
+    color:rgb(201, 14, 14);
+}
+.points .three{
+    background-color: rgba(69, 69, 82, 0.1);
+
+    box-sizing: border-box;
+   /* margin-left:30px;*/
+    margin-right:15px;
+    padding:40px;
+    box-shadow: 20px 20px grey;
+
+
+}
+.points .three h1{
+    color:rgb(5, 5, 110);
+    font-size: 50x;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.points .three a{
+    text-decoration: none;
+    color:rgb(201, 14, 14);
+}
+
+.testi{
+    margin:40px;
+    padding:10px;
+height:400px;
+background-color: rgba(69, 69, 82, 0.1);
+border-bottom: 20px solid rgb(5, 5, 110);
+
+}
+.testi h3{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(5, 5, 110);
+    text-align: center;
+}
+.testi .testi_container .item{
+    background-color:none;
+    margin:30px;
+    padding:20px;
+   
+   
+}
+.testi .testi_container .item h3{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(5, 5, 110);
+    text-align: center;
+    transition: all 2s ease-in;
+
+
+}
+.testi .testi_container .item p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+    text-align: center;
+    transition: all 2s ease-in;
+}
+/*.chat{
+    border:2px solid black;
+    display:block;
+
+}
+.chat .chat_box{
+    margin:0px;
+    padding:0px;
+    background-color:rgb(5, 5, 110);
+    position:fixed;
+    bottom:10px;
+    right:0px;
+}*/
+.feedback{
+    background-color: rgb(5, 5, 110);
+    margin:10px;
+    padding:10px;
+}
+.feedback h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+.feedback .form{
+    text-align: center;
+    
+}
+.feedback .form input{
+    width:450px;
+    margin:10px;
+    padding:5px;
+}
+.feedback .form input:hover{
+    border:4px solid crimson;
+}
+.feedback .form textarea{
+    width:450px;
+    margin:10px;
+    padding:5px;
+}
+.feedback .form textarea:hover{
+    border:4px solid crimson;
+}
+.feedback .form .btn {
+    background-color: rgb(5, 5,110);
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.feedback .form .btn:hover{
+    background-color: crimson;
+}
+
+footer{
+    background-color: rgb(5, 5,110);
+    margin:10px;
+    padding:10px;
+}
+footer h2{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.doc{
+    text-align: center;
+
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(5, 5,110);
+}
+ .doc a {
+     text-decoration: none;
+     margin:15px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-align: center;
+
+}
+.doc a:hover{
+    background-color: rgb(150, 14, 4);
+}
+footer p{
+    background-color: white;
+    text-align: right;
+}
